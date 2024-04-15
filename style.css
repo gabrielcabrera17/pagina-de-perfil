@@ -1,0 +1,201 @@
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    margin: 0 auto;
+}
+.container{
+    display: flex;
+    position: relative;
+    gap: 50px;
+}
+.nav{
+    display: flex;
+    background-color: black;
+    height: 70px;
+    margin-left:0px;
+    width: 1528px;
+    position: absolute;
+}
+.nav-links{
+    margin-left: 550px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    gap: 15px;
+    position: relative;
+}
+a{
+    text-decoration:none;
+    color: white;
+    font-size: 20px;
+}
+#perfil {
+    color: white;
+    margin-left: 400px;
+    position: absolute;
+}
+.btn-sign{
+    margin: 20px 0px 20px 320px ;
+    padding: 5px 7px 5px 7px;
+    background-color: rgba(0, 234, 255, 0.599);
+    color: rgba(255, 255, 255, 0.822);
+    border: none;
+}
+
+/* sub contenedor */
+.colum-1{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/*tarjeta*/
+.tarjeta{
+    width: 555px;
+    margin-left: 440px;
+    margin-top: 30px;
+}
+.cabezera{
+    height: 80px;
+    position: relative;
+    background-color: rgb(38, 139, 176);
+}
+.cuerpo{
+    height: 220px;
+    border: 2px solid rgb(197, 197, 197); 
+}
+.usuario-principal{
+    width: 60px;
+    margin-left: 20px;
+    margin-top: 50px;
+    border-radius: 50%;
+    border: 2px solid rgb(197, 197, 197); 
+}
+#nombre-tarjeta{
+    margin: 30px 0px 0px 20px;
+    font-size: 30px;
+}
+.ubicacion{
+    width: 40px;
+    margin-left: 25px;
+    margin-top: 10px;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.img-ubi,.img-edit{
+    width: 12px;
+}
+#habilidades{
+    margin-left: 25px;
+}
+.editar-perfil{
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+.a-edit{
+    color: rgb(0, 110, 255);
+    font-size: 12px;
+}
+
+/* div solicitud*/
+.solicitud{
+    width: 240px;
+    height: 200px;
+    margin-right: 100px;
+    margin-top: 30px;
+}
+.cuerpo-solicitud{
+    border: 2px solid rgb(197, 197, 197); 
+}
+.cabeza-solicitud{
+    display: flex;
+    height: 50px;
+    align-items: center;
+    gap: 15px;
+    padding-left: 20px;
+    background-color:rgba(30, 29, 29, 0.881);
+    color: white;
+}
+.cantidad-solicitud,.cantidad-conectados{
+    width:30px ;
+    background-color: gray;
+    border-radius: 50%;
+}
+.tod-e,.Phil-K-e,.Adrien-D,.Anne-j,.Alayne-t,.Arry-y{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding-left: 20px;
+    height: 75px;
+}
+.imag-tod,.imag-Phil,.imag-adrien,.imag-anne,.imag-Alayne,.imag-arry{
+    width: 40px;
+    border-radius: 40%;
+}
+.aceptar-solicitud,.denegar-solicitud{
+    width: 30px;
+}
+/* sub-container-2*/
+.colum-2{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* Educacion */
+
+.educacion{
+    height: 250px;
+    width: 555px;
+    margin-top: 30px;
+    margin-left: 440px;
+}
+.cabezera-educacion{
+    height: 40px;
+    padding-left: 20px;
+    padding-top: 15px;
+    color: white;
+    background-color:rgba(30, 29, 29, 0.881) ;
+}
+.cuerpo-educacion{
+    border: 2px solid rgb(197, 197, 197); 
+}
+.edu{
+    padding-left: 20px;
+}
+
+/* conectados */
+.cuerpo-conectados{
+    border: 2px solid rgb(197, 197, 197); 
+    
+}
+.conectados{
+    width: 240px;
+    height: 200px;
+    margin-right: 100px;
+    margin-top: 5px;
+}
+.cabeza-conectados{
+    color: white;
+    background-color:rgba(30, 29, 29, 0.881) ;
+    padding-left: 20px;
+    padding-top: 15px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.ver-mas{
+    height: 17px;
+    width: 236.5px;
+    border: 2px solid rgb(197, 197, 197);
+}
+.ver-mas-a{
+    color:blue;
+    font-size: 12px;
+    margin-left: 20px;
+}
