@@ -98,17 +98,18 @@ a{
 .a-edit{
     color: rgb(0, 110, 255);
     font-size: 12px;
+    text-decoration: underline
 }
 
 /* div solicitud*/
 .solicitud{
     width: 240px;
-    height: 200px;
     margin-right: 100px;
     margin-top: 30px;
 }
 .cuerpo-solicitud{
     border: 2px solid rgb(197, 197, 197); 
+    height: 100px;
 }
 .cabeza-solicitud{
     display: flex;
@@ -120,23 +121,27 @@ a{
     color: white;
 }
 .cantidad-solicitud,.cantidad-conectados{
-    width:30px ;
+    padding: 5px 10px;
     background-color: gray;
     border-radius: 50%;
 }
-.tod-e,.Phil-K-e,.Adrien-D,.Anne-j,.Alayne-t,.Arry-y{
+.tod-e,.Phil-K-e,.Adrien-D,.Anne-j,.Alayne-t,.Arry-y,.ver-mas{
     display: flex;
     align-items: center;
     gap: 15px;
     padding-left: 20px;
-    height: 75px;
+    margin-top: 15px;
+    
 }
 .imag-tod,.imag-Phil,.imag-adrien,.imag-anne,.imag-Alayne,.imag-arry{
-    width: 40px;
+    width: 30px;
     border-radius: 40%;
 }
+.Phil-K-e, .aceptar-solicitud{
+    margin-left: 2px;
+}
 .aceptar-solicitud,.denegar-solicitud{
-    width: 30px;
+    width: 25px;
 }
 /* sub-container-2*/
 .colum-2{
@@ -171,13 +176,11 @@ a{
 /* conectados */
 .cuerpo-conectados{
     border: 2px solid rgb(197, 197, 197); 
-    
+    height: 250px;
 }
 .conectados{
-    width: 240px;
-    height: 200px;
     margin-right: 100px;
-    margin-top: 5px;
+    
 }
 .cabeza-conectados{
     color: white;
@@ -190,12 +193,14 @@ a{
     gap: 15px;
 }
 .ver-mas{
-    height: 17px;
-    width: 236.5px;
-    border: 2px solid rgb(197, 197, 197);
+    padding: 5px;
+    border: 2px solid rgb(197, 197, 197); ;
+    height: 45px;
 }
 .ver-mas-a{
     color:blue;
     font-size: 12px;
     margin-left: 20px;
+    text-decoration: underline;
 }
+
